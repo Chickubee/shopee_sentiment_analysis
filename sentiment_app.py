@@ -109,11 +109,11 @@ if choice == "1.Business Objective":
     st.write("     - Replace misspelled words with spaces")
     st.write("     - Replace series of spaces with a single space")
                 
-    st.markdown("#### _** 3.2. Standardize Vietnamese Unicode**_")
-    st.markdown("#### _** 3.3. Tokenizer Vietnamese text using underthesea library**_")
-    st.markdown("#### _** 3.4. Remove Vietnamese stopwords**_")
-    st.markdown("#### _** 3.5. Modeling & Evaluation with: Naïve Bayes, Logistic Regression, Random Forest.**_")
-    st.markdown("#### _** 3.6. Analyze & Report**_")
+    st.markdown("#### _**3.2. Standardize Vietnamese Unicode**_")
+    st.markdown("#### _**3.3. Tokenizer Vietnamese text using underthesea library**_")
+    st.markdown("#### _**3.4. Remove Vietnamese stopwords**_")
+    st.markdown("#### _**3.5. Modeling & Evaluation with: Naïve Bayes, Logistic Regression, Random Forest.**_")
+    st.markdown("#### _**3.6. Analyze & Report**_")
 
     st.write("### 4. Information about author")
     st.write("**Instructors: Ms.Khuat Thuy Phuong**")
