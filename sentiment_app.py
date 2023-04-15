@@ -98,21 +98,44 @@ if choice == "1.Business Objective":
     shopee_comment2 = Image.open("image/shopee_comment2.jpg")
     st.image(shopee_comment2, width = 400)
 
+    
+    # Job 
+    st.write("### 3. Some works with this project")
+    st.markdown("**1. Preprocessing data:**")
+    st.write("     - Convert text to lowercase")
+    st.write("     - Remove special characters")
+    st.write("     - Replace emojicon/ teencode with corresponding text")
+    st.write("     - Replace some punctuation and numbers with spaces")
+    st.write("     - Replace misspelled words with spaces")
+    st.write("     - Replace series of spaces with a single space")
+                
+    st.markdown("**2. Standardize Vietnamese Unicode**")
+    st.markdown("**3. Tokenizer Vietnamese text using underthesea library**")
+    st.markdown("**4. Remove Vietnamese stopwords**")
+    st.markdown("**5. Modeling & Evaluation/ Analyze & Report**")
+
+    st.write("### 4. Information about author")
+    st.write("**Instructors: Ms.Khuat Thuy Phuong**")
+    st.write("**Student: Ms.Nguyen Anh Thai**")
+
+
+elif choice == '2.Build Model':  
+    st.write("**Using logistic regression model to predict sentiment of Shopee's comment. This is the result:**")
+
     #View some data
     # Information of data
-    st.write("### 3. View some data after cleaning")
+    st.write("### 1. Clean data. View some data after cleaning:")
     data_clean = Image.open("image/data_clean.PNG")
     st.image(data_clean, width = 700)
 
 
-
-elif choice == '2.Build Model':  
-    st.write("Using logistic regression model to predict sentiment of Shopee's comment. This is the result:")
-    st.write("### 1.Confusion Matrix")
+    st.write("### 2.Confusion Matrix")
     confusion_matrix = Image.open("image/confusion_matrix.PNG")
     st.image(confusion_matrix, width = 700)
+
+
     #wordcloud
-    st.write("### 2.WordCloud")
+    st.write("### 3.WordCloud")
     st.write("#### WordCloud plot for label Positive")
     positive_wc = Image.open("image/positive_wc.PNG")
     st.image(positive_wc, width = 700)
