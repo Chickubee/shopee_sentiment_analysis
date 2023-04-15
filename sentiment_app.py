@@ -101,7 +101,7 @@ if choice == "1.Business Objective":
     
     # Job 
     st.write("### 3. Some works with this project")
-    st.markdown("_**3.1. Preprocessing data:**_")
+    st.markdown("_#### **3.1. Preprocessing data:**_")
     st.write("     - Convert text to lowercase")
     st.write("     - Remove special characters")
     st.write("     - Replace emojicon/ teencode with corresponding text")
@@ -109,11 +109,11 @@ if choice == "1.Business Objective":
     st.write("     - Replace misspelled words with spaces")
     st.write("     - Replace series of spaces with a single space")
                 
-    st.markdown("**3.2. Standardize Vietnamese Unicode**")
-    st.markdown("**3.3. Tokenizer Vietnamese text using underthesea library**")
-    st.markdown("**3.4. Remove Vietnamese stopwords**")
-    st.markdown("**3.5. Modeling & Evaluation with: Naïve Bayes, Logistic Regression, Random Forest.**")
-    st.markdown("**3.6. Analyze & Report**")
+    st.markdown("_**#### 3.2. Standardize Vietnamese Unicode**_")
+    st.markdown("_**#### 3.3. Tokenizer Vietnamese text using underthesea library**_")
+    st.markdown("_**#### 3.4. Remove Vietnamese stopwords**_")
+    st.markdown("_**#### 3.5. Modeling & Evaluation with: Naïve Bayes, Logistic Regression, Random Forest.**_")
+    st.markdown("_**#### 3.6. Analyze & Report**_")
 
     st.write("### 4. Information about author")
     st.write("**Instructors: Ms.Khuat Thuy Phuong**")
