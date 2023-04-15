@@ -45,15 +45,15 @@ def predict_sentiment_label(text, vectorizer,sentiment_analysis_model):
     text_features = vectorizer.transform([text])
     predicted_class = sentiment_analysis_model.predict(text_features)[0]   
     if predicted_class == 0:
-        negative = Image.open("image/negative.png")
+        negative = Image.open("image/negative.PNG")
         negative = negative.resize((600,600))
         st.image(negative, width = 200)
     elif predicted_class == 1:
-        neutral = Image.open("image/neutral.png")
+        neutral = Image.open("image/neutral.PNG")
         neutral = neutral.resize((600,600))
         st.image(neutral, width = 200)
     elif predicted_class == 2:
-        positive = Image.open("image/positive.png")
+        positive = Image.open("image/positive.PNG")
         positive = positive.resize((600,600))
         st.image(positive, width = 200)
 
