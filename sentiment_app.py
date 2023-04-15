@@ -64,6 +64,10 @@ vectorizer = read_vectorizer_model()
 sentiment_analysis_model = read_sentiment_analysis_model()
 
 # GUI
+st.markdown("<h1 style='text-align: center; color: grey;'>Sentiment Analyzer Based On Text Analysis</h1>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center; color: black;'>Products Shopee comment </h2>", unsafe_allow_html=True)
+st.write('\n\n')
+
 menu = ["1.Business Objective", "2.Build Model", "3.New Prediction"]
 choice = option_menu(
     menu_title = None,
