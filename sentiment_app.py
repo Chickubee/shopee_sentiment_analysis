@@ -112,7 +112,8 @@ if choice == "1.Business Objective":
     st.markdown("**2. Standardize Vietnamese Unicode**")
     st.markdown("**3. Tokenizer Vietnamese text using underthesea library**")
     st.markdown("**4. Remove Vietnamese stopwords**")
-    st.markdown("**5. Modeling & Evaluation/ Analyze & Report**")
+    st.markdown("**5. Modeling & Evaluation with: Naïve Bayes, Logistic Regression, Random Forest.")
+    st.markdown("**6. Analyze & Report**")
 
     st.write("### 4. Information about author")
     st.write("**Instructors: Ms.Khuat Thuy Phuong**")
@@ -120,7 +121,7 @@ if choice == "1.Business Objective":
 
 
 elif choice == '2.Build Model':  
-    st.write("**Using logistic regression model to predict sentiment of Shopee's comment. This is the result:**")
+    st.write("**Using LOGISTIC REGRESSION model with highest accuracy and short running time to predict sentiment of Shopee's comment. This is the result:**")
 
     #View some data
     # Information of data
