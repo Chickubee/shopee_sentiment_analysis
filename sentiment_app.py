@@ -107,6 +107,7 @@ if choice == "1.Business Objective":
 
 
 elif choice == '2.Build Model':  
+    st.write("Using logistic regression model to predict sentiment of Shopee's comment. This is the result:")
     st.write("### 1.Confusion Matrix")
     confusion_matrix = Image.open("image/confusion_matrix.PNG")
     st.image(confusion_matrix, width = 700)
