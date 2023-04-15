@@ -101,7 +101,7 @@ if choice == "1.Business Objective":
     
     # Job 
     st.write("### 3. Some works with this project")
-    st.markdown("_#### **3.1. Preprocessing data:**_")
+    st.markdown("#### _**3.1. Preprocessing data:**_")
     st.write("     - Convert text to lowercase")
     st.write("     - Remove special characters")
     st.write("     - Replace emojicon/ teencode with corresponding text")
